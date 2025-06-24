@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+#stock-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.stock-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  width: 200px;
+  background-color: white;
+  box-shadow: 2px 2px 8px #ccc;
+}
+
+.stock-card h3 {
+  margin: 0;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  background: white;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+#notification-box {
+  background: #fffae6;
+  color: #333;
+  border: 1px solid #ffd700;
+  padding: 10px;
+  margin: 15px auto;
+  width: 80%;
+  text-align: center;
+  font-weight: bold;
+  display: none;
+}
